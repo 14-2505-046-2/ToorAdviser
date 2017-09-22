@@ -19,10 +19,14 @@ public class Main2Activity extends AppCompatActivity {
         switch (id) {
             case R.id.button:
                 myImageView.setImageResource(R.drawable.img_sightseeingmap_02);
+                break;
             case R.id.button3:
                 myImageView.setImageResource(R.drawable.map_f);
+                break;
             case R.id.button4:
                 myImageView.setImageResource(R.drawable.route);
+                break;
+
         }
     }
 }
