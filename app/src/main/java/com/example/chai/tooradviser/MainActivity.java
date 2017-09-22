@@ -18,4 +18,8 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("Button", view.getId());
         startActivity(intent);
     }
+    public void onSearchButtonClicked(View view) {
+        Intent intent = new Intent(this, SearchTourActivity.class);
+        startActivity(intent);
+    }
 }
